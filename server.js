@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const db = require("./models");
 
 // Express Setup
-const PORT = process.env.PORT || 3000;
+const PORT = 3030;
 const app = express();
 
 // Morgan Logger
